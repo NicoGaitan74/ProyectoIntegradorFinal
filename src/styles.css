@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-black { 
+    background-color: rgb(0, 0, 0);
+
+}
+
+.list-group {
+    --bs-list-group-bg: transparent;
+}
+/* Aca abajo: para que cambien de color cuando se pone el mouse en los iconos de github, insta y facebook */
+.fa-brands.fa-github.fa-2x:hover {
+    --bs-text-opacity: 1;
+    color: #2b0083 !important;
+}
+
+.fa-brands.fa-facebook.fa-2x:hover {
+    --bs-text-opacity: 1;
+    color: #1877f2 !important;
+
+}
+
+.fa-brands.fa-instagram.fa-2x:hover {
+    --bs-text-opacity: 1;
+    color: #ff0771 !important;
+}
+.fa-solid.fa-user-lock.fa-2x:hover {
+    --bs-text-opacity: 1;
+    color: #152caf !important;
+}
