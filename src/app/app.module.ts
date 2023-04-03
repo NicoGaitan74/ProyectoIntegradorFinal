@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { BannerComponent } from './componentes/banner/banner.component';
+import { SegundobannerComponent } from './componentes/segundobanner/segundobanner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
-    LoginComponent
+    LoginComponent,
+    BannerComponent,
+    SegundobannerComponent
   ],
   imports: [
     BrowserModule,

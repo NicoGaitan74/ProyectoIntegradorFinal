@@ -27,3 +27,101 @@
     --bs-text-opacity: 1;
     color: #152caf !important;
 }
+
+section.banner {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,1)
+    ),
+    url(/assets/img/imagen1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    -msn-background-size: cover;
+}
+/* Prueba fondo */
+section.fondo {
+    background-image: linear-gradient(
+        rgba(0,0,0,1),
+        rgba(0,0,0,0.3)
+    ),
+    url(/assets/img/imagen2.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    -msn-background-size: cover;
+    margin-top: -3rem; 
+    margin-block: -4rem;
+}
+
+h3.intro {
+    padding-top: 15%;
+    font-size: 3rem;
+}
+
+h1.intro {
+    font-size: 4rem;
+}
+
+h4.intro {
+    font-size: 1.7rem;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+height: 100px;
+width: 100px;
+outline: black;
+background-size: 100%, 100%;
+border-radius: 50%;
+border: 1px solid black;
+background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+content: '>';
+font-size: 55px;
+color: rgb(0, 0, 0);
+}
+
+.carousel-control-prev-icon:after {
+content: '<';
+font-size: 55px;
+color: rgb(0, 0, 0);
+}
+
+.bg-black.text-white.text-center.fs-6 {
+    margin-top: 4%;
+}
+
+/* Prueba color letras presentacion y demas, tambien sombra a color */
+
+#texto1 {
+    color: #ffffff;
+    text-shadow: 4px 3px 3px rgb(12, 20, 136);
+}
+
+#texto2 {
+    color: #ffffff;
+    text-shadow: 4px 3px 3px rgb(12, 20, 136);
+}
+
+#texto3 {
+    color: #ffffff;
+    text-shadow: 4px 3px 3px rgb(12, 20, 136);
+}
+
+#texto4 {
+    color: #ffffff;
+    text-shadow: 4px 3px 3px rgb(12, 20, 136);
+}
