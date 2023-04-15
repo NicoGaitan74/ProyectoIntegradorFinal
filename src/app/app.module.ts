@@ -7,7 +7,7 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { LoginComponent } from './componentes/login/login.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { SegundobannerComponent } from './componentes/segundobanner/segundobanner.component';
-
+import { NgCircleProgressModule } from 'ng-circle-progress';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,8 @@ import { SegundobannerComponent } from './componentes/segundobanner/segundobanne
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
