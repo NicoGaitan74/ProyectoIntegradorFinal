@@ -8,13 +8,15 @@ import { LoginComponent } from './componentes/login/login.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { SegundobannerComponent } from './componentes/segundobanner/segundobanner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { FooterComponent } from './componentes/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
     LoginComponent,
     BannerComponent,
-    SegundobannerComponent
+    SegundobannerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
